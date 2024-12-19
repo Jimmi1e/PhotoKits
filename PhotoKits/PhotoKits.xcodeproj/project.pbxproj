@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		487C07992D13D97B0016E46A /* PhotoKits.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PhotoKits.xcodeproj; sourceTree = "<group>"; };
 		48FD83762D126F1300E73E52 /* PhotoKits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoKits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD83862D126F1500E73E52 /* PhotoKitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoKitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD83902D126F1500E73E52 /* PhotoKitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoKitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +110,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		487C079F2D13D97B0016E46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		48FD836D2D126F1300E73E52 = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +243,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 48FD83772D126F1300E73E52 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 487C079F2D13D97B0016E46A /* Products */;
+					ProjectRef = 487C07992D13D97B0016E46A /* PhotoKits.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				48FD83752D126F1300E73E52 /* PhotoKits */,
